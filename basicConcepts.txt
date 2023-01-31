@@ -1,0 +1,16 @@
+OO Basics:
+Abstraction
+Inheritance
+Encapsulation
+Polymorphism
+
+OO Principles:
+Encapsulate what varies.
+Favour compositiion over inheritance.
+Program to interfaces, not implementations.
+
+SOLID:
+Single Responsibility Principle 
+Liskov Substitution Principle 
+Interface Segregation Principle 
+Dependency Inversion Principle
