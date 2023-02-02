@@ -8,6 +8,7 @@ OO Principles:
 Encapsulate what varies.
 Favour compositiion over inheritance.
 Program to interfaces, not implementations.
+Strive for loosely coupled designs between objects that interact.
 
 SOLID:
 Single Responsibility Principle 
