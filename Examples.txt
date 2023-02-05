@@ -1,0 +1,50 @@
+Encapsulation:
+
+Encapsulation is basically hiding the data to make it more protective.
+To encapsulate, simply create the attributes private and create getters
+and setters.
+This way the data won't be overwritten directly.
+
+Example:
+
+public class Student{
+    private String name;
+    /* rest of the attributes */
+    public String getName(){
+        return name;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+}
+
+
+Inheritance: 
+
+Inheritance is inheriting the property of other class. You can use those 
+attributes/methods for another class, and that class in addition can introduce
+its own attribute/methods.
+
+Example:
+
+public class Person{
+    private String name;
+     /* rest of the attributes */
+    public String getName(){
+        return name;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+}
+
+public class Student extends Person{
+    private int marks;
+    /* rest of the attributes */
+    public int getMarks(){
+        return marks;
+    }
+    public void setMarks(int marks){
+        this.marks = marks;
+    }
+}
